@@ -2,11 +2,11 @@ import './App.css'
 import ListGroup from './components/ListGroup'
 
 function App() {
-
+  let items = ["New York", "London", "Dallas", "Little Rock", "Miami"];
 
   return (
     <>
-      <ListGroup />
+      <ListGroup items={items} heading='Cities'/>
     </>
   )
 }
